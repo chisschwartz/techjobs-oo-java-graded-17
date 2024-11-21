@@ -8,15 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +102,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.TestTaskThree">
+  <component name="RunManager" selected="Gradle.TestTaskTwo">
     <configuration name="TestTaskFive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -252,11 +245,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestTaskTwo" />
         <item itemvalue="Gradle.TestTaskThree" />
         <item itemvalue="Gradle.TestTaskSix" />
         <item itemvalue="Gradle.TestTaskFour" />
         <item itemvalue="Gradle.TestTaskFive" />
-        <item itemvalue="Gradle.TestTaskTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -270,5 +263,15 @@
       <updated>1685977091317</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

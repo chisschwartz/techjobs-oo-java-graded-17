@@ -9,9 +9,9 @@ import java.util.Objects;
 
 public abstract class JobField {
 
-     int id;
-     int nextId = 1;
-     String value;
+    public int id;
+    public static int nextId = 1;
+    public String value;
 
      public JobField() {
          id = nextId;
@@ -24,7 +24,7 @@ public abstract class JobField {
     }
 
     //custom method
-
+    @Override
     public String toString(){
         return value;
     }
@@ -34,12 +34,12 @@ public abstract class JobField {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         JobField jobField = (JobField) o;
-        return id == jobField.id && nextId == jobField.nextId && Objects.equals(value, jobField.value);
+        return getId() == jobField.getId() && Objects.equals(getValue(), jobField.getValue());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nextId, value);
+        return Objects.hash(getId(), getValue());
     }
 
     // getters and setters
